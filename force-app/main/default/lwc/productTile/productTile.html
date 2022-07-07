@@ -1,6 +1,12 @@
 <template>
     <div draggable={draggable} ondragstart={handleDragStart}>
+
+
+
         <a onclick={handleClick}>
+            <lightning-button-stateful label-when-on="Remove" label-when-off="Compareaaaaa"
+                icon-name-when-on="utility:close" icon-name-when-off="utility:add" class="compare-button">
+            </lightning-button-stateful>
             <div class="content">
                 <img src={pictureUrl} class="product slds-align_absolute-center" alt="Product picture" />
                 <div>
